@@ -6,3 +6,5 @@ Using SpaceX data from multiple Rocket 9 Launches we are trying to predict if th
 
 Using everything I have learned in the IBM Applied Data Science course in a final. Making a powerpoint using all the jupyter notebooks and app loaded up on Github done
 on IBM Watson. 
+
+For the notebook EDA with SQL lab had to download and change the nbfortmat_minor to 5 to get the notebook to load.
