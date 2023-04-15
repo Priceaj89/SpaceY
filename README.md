@@ -7,8 +7,6 @@ Using SpaceX data from multiple Rocket 9 Launches we are trying to predict if th
 ***** IF FOLIUM NOTEBOOK IS NOT SHOWING MAPS PLEASE USE THIS LINK ******
 https://nbviewer.org/github/Priceaj89/SpaceY/blob/master/Space%20Y%20Data%20Visualization%20with%20Folium.ipynb
 
-Link to Dashboard https://priceaj89-fictional-garbanzo-qj44j5964rwcxxwv-8050.preview.app.github.dev/
-
 Using everything I have learned in the IBM Applied Data Science course in a final. Making a powerpoint using all the jupyter notebooks and app loaded up on Github done
 on IBM Watson. 
 
