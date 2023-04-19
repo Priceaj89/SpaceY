@@ -81,13 +81,13 @@ def get_scatter_chart(entered_site, payload_range):
         filtered_df = spacex_df[(spacex_df['Payload Mass (kg)'] >= int(payload_range[0])) &
                                 (spacex_df['Payload Mass (kg)'] <= int(payload_range[1]))
                                ]
-        fig = px.scatter(filtered_df, x='Payload Mass (kg)', y='class', color='Booster Version Category', title='All sites - payload mass between {:8,d}kg and {:8,d}kg'.format(int(payload_range[0]),int(payload_range[1])))
+        fig = px.scatter(filtered_df, x='Payload Mass (kg)', y='class', size='Payload Mass (kg)', color='Booster Version Category', title='All sites - payload mass between {:8,d}kg and {:8,d}kg'.format(int(payload_range[0]),int(payload_range[1])))
     else:
         filtered_df = spacex_df[(spacex_df['Launch Site'] == entered_site) & 
                                 (spacex_df['Payload Mass (kg)'] >= int(payload_range[0])) &
                                 (spacex_df['Payload Mass (kg)'] <= int(payload_range[1]))
                                ]
-        fig = px.scatter(filtered_df, x='Payload Mass (kg)', y='class', color='Booster Version Category', title='Site {} - payload mass between {:8,d}kg and {:8,d}kg'.format(entered_site,int(payload_range[0]),int(payload_range[1])))
+        fig = px.scatter(filtered_df, x='Payload Mass (kg)', y='class', size='Payload Mass (kg)', color='Booster Version Category', title='Site {} - payload mass between {:8,d}kg and {:8,d}kg'.format(entered_site,int(payload_range[0]),int(payload_range[1])))
     
     return fig
 
